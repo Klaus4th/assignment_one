@@ -1,0 +1,7 @@
+# Step 1 We will keep track of how long the list is, and save it to a variable n
+# Step 2 If the list length n is 0 we will return 1
+# Step 3 We will loop n times 
+# Step 4 Each loop, we'll count how many times the number of the loop we are on appears in the list we have been given
+# For example, on the first loop, we check how many times 1 is in the list, the second time how many times 2 is in the list etc.
+# Step 5 If the amount of times a number has appeared is 0, we return that number, for it is the missing element.
+# Step 6 If the function is still running it is the last element that is missing, so we will return n + 1
