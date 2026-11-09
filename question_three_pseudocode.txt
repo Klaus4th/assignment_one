@@ -1,0 +1,2 @@
+# Step 1: Import the math function
+#Step 2: inside of the predefined function, return the mathmatical ceiling value of y-x/D as that is the answer
