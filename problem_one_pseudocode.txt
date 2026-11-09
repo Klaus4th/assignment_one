@@ -1,0 +1,13 @@
+# Step 1: First we check to make sure that the array is actually getting rotated by a non 0 number, for if it is not, we just return the original array.
+# Step 2: We make a second array (C) full of zero's with one element for each element in A
+# Step 3: We check to see if the number of times we need to shift the array A is greater than or equal to the number of elements in the array A.
+# Step 4 If the number of times we need to shift (K) array A is in fact greater than or equal to the amount of elements in array, we subtract the number of elements array A has until
+# the number of times we must shift the array (K) is less than the number of elements that are in array A. We will keep this number as the new K value.
+# Step 5 We iterate (or loop through) through array A for each element in the original array A, keeping track of where in the array we are
+# Step 6 We check whether or not for the location within the array of the current element that we're on, if that location + K (the amount of times we have to shift) is less than the numerical
+# length of the array.
+# Step 7 If the case is that the numerical position of the element in the array + k is less than the length of the list, we will set the element in the new list (C) at the numerical
+# location of the element that we are currently on + the amount of times we have to shift.
+# Step 8 If that's not the case, the location of the element that we are on + K exceeds the length of the list and we will instead set the element in the new list (C) at the
+# numerical location of the element that we are currently on + the amount of times we have to shift but - the length of the list
+# Step 9 Once we have finished looping through all of array A as described in 5, we will return the new array (C) as it now has all of the shifted values.
