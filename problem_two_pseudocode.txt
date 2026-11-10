@@ -1,0 +1,5 @@
+# Step 1 create a condition that the rest of the program will be in, unless the list is not more than 1 element long
+# Step 2 if it is 1 element long, return the one element, for it is the lone element
+# Step 3 assuming the inputed list is longer than 1 element long, we will start a loop iterating through all elements of our input list
+# Step 4 this loop will keep track of the location of the element within the list. 
+# Step 5 for any element in this iteration we will check if the number of times that element appears in the list appears is odd, if that is the case, we return that element. If not the loop continues until we find it.
