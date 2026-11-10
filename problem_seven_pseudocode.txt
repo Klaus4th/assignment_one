@@ -1,0 +1,10 @@
+#Step 1: We get the length of the input list and save it as value n
+#Step 2: If X, the value of distance the frog must cross, is greater than the length of the list + 1, we return -1 as there is not enough time
+# for all the leaves to fall and for the frog too to cross
+#Step 3: We create an empty array/list full of 0's
+#Step 4: We assign the number 1 in the first position, up to l in the lth position for instance 3 in the 3rd position so that the list is full inbetween
+#Step 5: We loop through the list of numbers representing leaves in different positions, making sure to keep note their value in the list as it represents time
+#Step 6: In each loop we will check two things, the first is if that value of the leaves position is still in the list we have created, if it is
+# AND there is only one element left in the list, we will return the position in the original list that this leaf occupies as that is the first time the frog may cross
+#Step 7: If that first condition is not met, we simply check if the value of the leaves position is still in the list we have made, if it is, we remove it from the list we created
+# (to note) this is to remove all the missing parts of the river we must wait to be covered by leaves.
